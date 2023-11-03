@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: black;
+    text-align:center;
+    color: white;
+}
+
+
+.background-image {
+    background-image: url("images/header-image.png");
+    background-size: 1300px 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.background-image::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Logo, languages, and sign in */
+.logo {
+width: 13%;
+top: 20px;
+left: 150px;
+padding: 5px;
+position: absolute;
+z-index: 2;
+}
+
+.signin-language {
+position: absolute;
+top: 10px;
+right: 150px;
+padding: 5px;
+margin: 15px;
+z-index: 2;
+}
+
+#language {
+    background-color: #2E2E2E;
+    color: white;
+    width: 110px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 20px;
+}
+
+
+#signin {
+    background-color: #e50914;
+    color: white;
+    border: 0;
+    width: 70px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+}
+
+
+.main-paragraph {
+    margin-top: 280px;
+    font-size: 50px;
+    white-space: nowrap;
+    
+}
+
+#thirdline {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+#email-box {
+    background-color: #2E2E2E;
+    border: 0;
+    opacity: 0.8;
+    width: 350px;
+    height: 50px;
+
+}
+
+#submit-button {
+    background-color: #e50914;
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+/* grid */
+
+
+.thick-hr {
+    border: none;
+    height: 10px;
+    background: gray;
+    margin: 10px;
+    
+}
+
+#space-under-main {
+  margin-top: 220px;  
+}
+
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+
+.left-content {
+    grid-column: 1;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.right-content {
+    grid-column: 2;
+    text-align: center;
+}
+
+
+.left-content-1 {
+    grid-column: 1;
+    text-align: center;
+}
+
+.right-content-1 {
+    grid-column: 2;
+    text-align: left;
+}
+
+
+.hideparag p {
+    display: none;
+      
+}
+
+
+/* FAQ section */
+
+.FAQ-question {
+    width: 60%;
+  }
+  .FAQ-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+  }
+  
+  .FAQ-answer {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .FAQ-answer > p {
+    margin: 1rem;
+    font-size: 20px;
+  }
+  .FAQ-list-container {
+    border-top: 8px solid #222;
+    padding: 2rem 0;
+  }
+
+  .FAQ-heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 3rem;
+    font-weight: bolder;
+  }
+  
+  .FAQ-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+
+
+  /* Footer */
+
+  #space {
+    padding-bottom: 30px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
+  .footer-grid a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  #bottom {
+    text-align: left;
+    padding-left: 60px;
+  }
+
+/* Responsiveness */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+
+  .grid {
+display:block;
+align-items: center;
+    
+}
+
+
+.background-image::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  z-index: 1;
+}
+
+}
+
+/* For screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+      font-size: 18px;
+  }
+}
