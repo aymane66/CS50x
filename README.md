@@ -13,14 +13,8 @@ CS50x is an introductory course to computer science that covers a wide range of 
 - **pset4: Algorithms** [Sort](https://github.com/aymane66/CS50x/tree/main/sort), [Runoff](https://github.com/aymane66/CS50x/tree/main/runoff), [Plurality](https://github.com/aymane66/CS50x/tree/main/plurality)
 - **pset5: Memory** [Filter](https://github.com/aymane66/CS50x/tree/main/filter-less), [Recover](https://github.com/aymane66/CS50x/tree/main/recover), [Volume](https://github.com/aymane66/CS50x/tree/main/volume)
 - **pset6: Data Structure** [Inheritance](https://github.com/aymane66/CS50x/tree/main/inheritance), [Speller](), []()
-- **pset7: Python** [World Cup](), [Hello](), [Cash](), [Readabilty](), [Mario]() , [Cash](), [DNA]() 
-- **pset8: SQL** [](), [](), []()
+- **pset7: Python** [World Cup](https://github.com/aymane66/CS50x/tree/main/world-cup), [Hello](), [Cash](https://github.com/aymane66/CS50x/tree/main/sentimental-cash), [Readabilty](), [Mario](https://github.com/aymane66/CS50x/tree/main/sentimental-mario-less), [DNA]() 
+- **pset8: SQL** [Songs](https://github.com/aymane66/CS50x/tree/main/Songs), [Fitfyville](https://github.com/aymane66/CS50x/tree/main/Fiftyville), [Movies](https://github.com/aymane66/CS50x/tree/main/Movies)
 - **pset9:** [](), [](), []()
-- **final project:** [Youtube video downloader](https://github.com/aymane66/CS50x/tree/main/Youtube%20Downloader) [Demo:](https://vimeo.com/894122971)
+- **final project:** [Youtube video downloader](https://github.com/aymane66/CS50x/tree/main/Youtube%20Downloader) [Demo video](https://vimeo.com/894122971)
 
-## Getting Started
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/your-username/CS50x.git
