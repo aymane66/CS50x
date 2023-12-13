@@ -26,3 +26,8 @@ CS50x is an introductory course to computer science that covers a wide range of 
 
 - **final project:** [Youtube video downloader](https://github.com/aymane66/CS50x/tree/main/Youtube%20Downloader) [Demo video](https://vimeo.com/894122971)
 
+## Certificate:
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:700/1*IYCifTCCR2ah-79u94Z3wg.png" alt="CS50 certificate" />
+</p>
