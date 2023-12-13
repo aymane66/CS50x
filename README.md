@@ -29,5 +29,5 @@ CS50x is an introductory course to computer science that covers a wide range of 
 ## Certificate:
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:700/1*IYCifTCCR2ah-79u94Z3wg.png" alt="CS50 certificate" />
+  <img src="https://certificates.cs50.io/d20953f1-ad22-4201-98d0-149c55d7f521.png" alt="CS50 certificate" />
 </p>
